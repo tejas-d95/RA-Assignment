@@ -43,8 +43,7 @@ class FacilityTableDelegate: NSObject, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        // Return the desired height for the section header
-        return 40 // Custom height for section 0
+        return 40
     }
     
     @objc func headerTapped(_ gestureRecognizer: UITapGestureRecognizer) {

@@ -8,11 +8,10 @@
 import UIKit
 
 class CheckboxButton: UIButton {
-    // Images for checkbox states
     let checkedImage = AppImages.checkedBoxImage
     let uncheckedImage = AppImages.uncheckedBoxImage
     
-    // Boolean property to track checkbox state
+    // Property to track checkbox state
     var isChecked: Bool = false {
         didSet {
             updateCheckboxImage()

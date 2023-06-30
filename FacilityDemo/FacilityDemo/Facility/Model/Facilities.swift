@@ -10,7 +10,7 @@ struct Facility: Codable {
     let facility_id: String
     let name: String
     let options: [Option]
-    var selectedOption: Option?  // New property to track the selected option
+    var selectedOption: Option?  // Property to track the selected option
 }
 
 

@@ -44,7 +44,7 @@ func headerViewForTable(with frame: CGRect, section: Int, title: String) -> UIVi
     
 
     let label = UILabel()
-    label.font = UIFont.systemFont(ofSize: 20, weight: .bold) // Set the desired font size
+    label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
     label.textColor = .white
     label.text = title
     label.translatesAutoresizingMaskIntoConstraints = false
@@ -58,7 +58,7 @@ func headerViewForTable(with frame: CGRect, section: Int, title: String) -> UIVi
         label.centerYAnchor.constraint(equalTo: headerView.centerYAnchor)
     ])
     
-    // Apply border and shadow to the header view
+    // Apply shadow to the header view
         headerView.layer.shadowColor = UIColor.black.cgColor
         headerView.layer.shadowOffset = CGSize(width: 0, height: 3)
         headerView.layer.shadowOpacity = 0.5
