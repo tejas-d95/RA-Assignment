@@ -24,7 +24,7 @@ Repository Pattern
 3. View Controller - Facility Demo/Facility/View Controller
 
 # Networking
-Please note I havn't used any third party library like Alamofire, I belive Swift has the copability and feasible to implement our own networking class using URLSession and Generics.   <br>Location to Networking class - Facility Demo/Facility/Networking
+Please note I havn't used any third party library like Alamofire, I belive Swift has the copability and feasible to implement our own networking class using URLSession and Generics. <br><br>Location to Networking class - Facility Demo/Facility/Networking
 
 # Views
 1. Facility and option list has been created using single storyboard, I think for single screen application like this single storyboard is better way.
